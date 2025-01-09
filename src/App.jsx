@@ -1,7 +1,8 @@
 import Componente1 from './components/componente'
-import Logo from './components/logo'
-import Footer from './components/footer'
-import Body from './components/body'
+import Logo from './components/home/logo'
+import Footer from './components/home/footer'
+import Body from './components/home/body'
+import Home from './screens/home'
 
 
 import './App.css'
@@ -10,9 +11,7 @@ function App() {
 
   return (
     <>
-      <Logo />
-      <Body />
-      <Footer />
+      <Home />
     </>
   )
 }

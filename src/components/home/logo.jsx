@@ -1,5 +1,6 @@
-import viteLogo from '../../public/vite.svg'
-import reactLogo from "../assets/react.svg";
+import viteLogo from '../../../public/vite.svg'
+import reactLogo from "../../assets/react.svg";
+import gitLogo from "../../assets/git.jpg";
 
 const Logo = () => {
     return (
@@ -10,6 +11,11 @@ const Logo = () => {
                     </a>
                     <a href="https://react.dev" target="_blank">
                         <img src={reactLogo} className="logo react" alt="React logo"/>
+                    </a>
+                </div>
+                <div>
+                <a href="https://github.com/Gonmore/curso-react" target="_blank">
+                        <img src={gitLogo} className="logo react" alt="Git logo"/>
                     </a>
                 </div>
             </div>
