@@ -1,4 +1,6 @@
 import Home from './screens/home'
+import ThinkS from './screens/Think'
+
 
 
 import './App.css'
@@ -8,7 +10,7 @@ function App() {
 
   return (
     <>
-      <Home />
+      <ThinkS />
       <Counter />
     </>
   )
