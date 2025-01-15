@@ -1,17 +1,13 @@
-import Home from './screens/home'
-import ThinkS from './screens/Think'
-
-
-
 import './App.css'
-import { Counter } from './components/counter/counter'
+import Navigation from './components/Navigation/Navigation.jsx'
+import Router from './components/Navigation/Router.jsx'
 
 function App() {
 
   return (
     <>
-      <ThinkS />
-      <Counter />
+      <Navigation />
+      <Router />
     </>
   )
 }
