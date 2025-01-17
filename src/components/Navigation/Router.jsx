@@ -1,7 +1,7 @@
 import Home from '../../screens/home'
 import Product from '../../screens/product'
 import About from '../../screens/about'
-import ThinkS from '../../screens/Think'
+import ThinkS from '../../screens/think'
 import Login from '../../screens/Login.jsx'
 
 import { Routes, Route } from "react-router"
